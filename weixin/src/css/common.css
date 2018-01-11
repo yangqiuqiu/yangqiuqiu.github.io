@@ -1,0 +1,59 @@
+/* css 步骤
+1 位置 浮动 定位
+2状态 块 行内 行内块
+3宽高
+4margin padding border
+5里面元素 位置
+6字体大小 颜色 背景 */
+
+
+/* 发现 */
+.head{
+    height: 0.9rem;
+
+    /* 文字水平居中 */
+    text-align: center;
+
+    /* 和高度一样  文字垂直居中  几行文字除以几 */
+    line-height: 0.9rem;
+
+    font-size: 0.38rem;
+
+    color:#fff;
+
+    background-color: black;
+
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0.98rem;
+    border-top:0.01rem solid #adadad;  
+    background-color: #fff;
+}
+
+.footer li{
+     float: left;
+     width: 25%;
+     text-align: center;
+
+
+}
+
+.footer div{
+    height:0.62rem;
+    padding-left: 0.7rem;
+}
+.footer p{
+   
+   font-size: 0.4rem;
+   line-height: 0.9rem;
+
+}
+.footer p.active{
+    color:#31ad37;
+}
+   
