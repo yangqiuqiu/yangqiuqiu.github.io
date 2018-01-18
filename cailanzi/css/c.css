@@ -1,0 +1,96 @@
+
+/*首页轮播图 */
+
+
+.swper{
+    /* 相对定位   轮播图上的白点定位到轮播图上 */
+    position: relative;
+}
+
+
+
+.search{
+    position: absolute;
+    top:0.56rem;
+    /* left:1.05rem; */
+
+
+    /* 居中 */
+    left:50%;
+    /* 原长/2 */
+    margin-left: -2.7rem;
+
+    /*固定大小  定宽 宽高减去padding */
+    width:4.7rem;
+    height:0.34rem;
+
+    /* 字在中间 */
+    padding: 0.11rem 0 0.15rem 0.7rem;
+
+    /* 不固定宽度 */
+    /* width:（原长/7.5)% */
+
+    font-size: 0.24rem;
+}
+.dot{
+    /* 绝对定位   浮动起来   内容多大盒子多大  块状变为行内块*/
+    position: absolute;
+    bottom: 0.15rem;
+    /* 变成一整行   行内文字(白点)居中 */
+    width: 100%;
+    text-align: center;
+
+
+
+}
+
+
+.dot span{
+    /* 内联变成行内块 */
+    display: inline-block;
+    width: 0.15rem;
+    height: 0.15rem;
+    background-color:red;
+    border-radius: 50%;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+
+}
+
+.content{
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+
+}
+
+.item-box{
+    height: 1.5rem;
+
+    margin-top: 0.18rem;
+
+}
+
+.item-box.list{
+    float:left;
+    width: 33.333333%;
+    height: 0.75rem;
+    border-right: 0.01rem solid #f9f9f9;
+    /* 盒模型计算方式 */
+    
+}
+.bg1{
+    background-color: #85dc38;
+}
+
+.bg2 {
+    background-color:#f7713f;
+}
+
+.bg3 {
+    background-color: #db386c;
+}
+
+.bg4 {
+    background-color: #2caa71;
+    ;
+}

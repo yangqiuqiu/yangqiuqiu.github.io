@@ -1,0 +1,157 @@
+/*样式初始化*/
+
+body,
+div,
+h1,
+ul,
+li,
+ol,
+p,
+a,
+img,
+header,
+section,
+input,
+h2,
+h3,
+h4,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input,
+button {
+    border: 0;
+    outline: 0;
+}
+
+img {
+    display: block;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 0.12rem;
+    font-weight: normal;
+    /* 字体不加粗 */
+}
+
+
+html {
+    font-size: 50px;
+}
+
+/* 媒体查询  css3 */
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.67px;
+    }
+    
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px
+    }
+}
+
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 64px
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 85.33px
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 100px;
+    }
+}
+
+
+
+/* rem  等比例 放大缩小  相对单位 */
+
+
+body {
+    font: 12px/1.5 "微软雅黑";
+    box-sizing: border-box;
+    /* background-color:#efeef4; */
+}
+
+
+/****** 组件 ******/
+.pic100{
+   width:100%;
+}
+
+.mb30{
+    margin-bottom:0.3rem;
+}
+.pt20{
+    padding-top:0.2rem;
+}
+
+
+
+.bor-b{
+    border-bottom:0.01rem solid #dadada;
+}
+
+.f20{
+    font-size: 0.2rem;
+}
+.f24{
+    font-size: 0.24rem;
+}
+
+/* 清除浮动 */
+.fix:after,
+.fix:before {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both
+}
+
+.auto{
+    margin-left:auto;
+    margin-right:auto;
+}
