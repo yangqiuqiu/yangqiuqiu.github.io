@@ -88,3 +88,11 @@ $ cnpm install 包名 --save-dev 安装到当前文件夹 写入 package.json
 - ls  把目录下的文件列出来
 
 
+
+##  gulpfile.js
+##  package.json  
+
+脚本   可以自动刷新
+
+用的时候复制到文件夹
+
